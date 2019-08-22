@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>areaLinkage 三级地址联动组件 | vue组件</title>
+    <meta name="description" content="vue项目组件">
+    <link rel="icon" href="/fecvue/favicon.png">
+    
+    <link rel="preload" href="/fecvue/assets/css/0.styles.e309094b.css" as="style"><link rel="preload" href="/fecvue/assets/js/app.491983d8.js" as="script"><link rel="preload" href="/fecvue/assets/js/3.cbe0b5a8.js" as="script"><link rel="preload" href="/fecvue/assets/js/14.3a8af8cc.js" as="script"><link rel="preload" href="/fecvue/assets/js/6.4424db27.js" as="script"><link rel="preload" href="/fecvue/assets/js/8.2f1fe50a.js" as="script"><link rel="preload" href="/fecvue/assets/js/4.05768f06.js" as="script"><link rel="prefetch" href="/fecvue/assets/js/1.f772026e.js"><link rel="prefetch" href="/fecvue/assets/js/10.55f07644.js"><link rel="prefetch" href="/fecvue/assets/js/11.0bf5a5f0.js"><link rel="prefetch" href="/fecvue/assets/js/12.eee294d7.js"><link rel="prefetch" href="/fecvue/assets/js/13.58d4ef51.js"><link rel="prefetch" href="/fecvue/assets/js/15.a9898c61.js"><link rel="prefetch" href="/fecvue/assets/js/16.b184c793.js"><link rel="prefetch" href="/fecvue/assets/js/17.13c8971b.js"><link rel="prefetch" href="/fecvue/assets/js/18.cb1f75a6.js"><link rel="prefetch" href="/fecvue/assets/js/19.82b3c450.js"><link rel="prefetch" href="/fecvue/assets/js/20.d44ac4c8.js"><link rel="prefetch" href="/fecvue/assets/js/21.969b4560.js"><link rel="prefetch" href="/fecvue/assets/js/22.25897307.js"><link rel="prefetch" href="/fecvue/assets/js/23.f166f94b.js"><link rel="prefetch" href="/fecvue/assets/js/24.141a0754.js"><link rel="prefetch" href="/fecvue/assets/js/25.71a86589.js"><link rel="prefetch" href="/fecvue/assets/js/26.ca7423ad.js"><link rel="prefetch" href="/fecvue/assets/js/27.215d7c2f.js"><link rel="prefetch" href="/fecvue/assets/js/5.22d9b36f.js"><link rel="prefetch" href="/fecvue/assets/js/7.bbe75f88.js"><link rel="prefetch" href="/fecvue/assets/js/9.d49aabf0.js">
+    <link rel="stylesheet" href="/fecvue/assets/css/0.styles.e309094b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/fecvue/" class="home-link router-link-active"><!----> <span class="site-name">vue组件</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/fecvue/" class="nav-link">主页</a></div><div class="nav-item"><a href="/fecvue/guide/introduction.html" class="nav-link">使用说明</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fecvue/components/1.0/" class="nav-link router-link-active">1.0.0</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">关于作者</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub地址
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/fecvue/" class="nav-link">主页</a></div><div class="nav-item"><a href="/fecvue/guide/introduction.html" class="nav-link">使用说明</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/fecvue/components/1.0/" class="nav-link router-link-active">1.0.0</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">关于作者</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub地址
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>基础组件</span> <!----></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>应用组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/fecvue/components/1.0/zoom.html" class="sidebar-link">zoom 商品放大镜</a></li><li><a href="/fecvue/components/1.0/loading.html" class="sidebar-link">Loading 加载</a></li><li><a href="/fecvue/components/1.0/pagination.html" class="sidebar-link">Pagination 分页</a></li><li><a href="/fecvue/components/1.0/confirm.html" class="sidebar-link">Confirm 确认框</a></li><li><a href="/fecvue/components/1.0/alert.html" class="sidebar-link">alert 消息提示</a></li><li><a href="/fecvue/components/1.0/uploadImage.html" class="sidebar-link">uploadImage 上传图片</a></li><li><a href="/fecvue/components/1.0/areaLinkage.html" class="active sidebar-link">areaLinkage 三级地址联动组件</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="arealinkage-三级地址联动组件"><a href="#arealinkage-三级地址联动组件" aria-hidden="true" class="header-anchor">#</a> areaLinkage 三级地址联动组件</h3> <blockquote><p>使用方式：</p> <ol><li>在要使用的页面引入该组件  import areaLinkage from '@/assembly/areaLinkage'//组件的位置</li> <li>注册组件 components:{ areaLinkage }</li> <li>在你要使用该组件的位置挂载该组件 &lt;areaLinkage @getSelectedAddress='getSelectedAddress' /&gt;</li></ol></blockquote> <blockquote><p>参数说明
+getSelectedAddress：用于获取子组件传过来的已经选择的地址</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>/**
+* 获取选择的地址
+*/
+getSelectedAddress(val){
+   var selectedAddress = val;//取到子组件传过来的值
+   this.selectedAddress = selectedAddress;
+},
+</code></pre></div> <div class="code" data-v-191d366a><div class="code--title" data-v-191d366a><h2 data-v-191d366a>areaLinkage 三级地址联动组件</h2> <small data-v-191d366a>三级地址联动组件</small></div> <div class="code--demo" data-v-191d366a><div class="code-content" data-v-191d366a><div data-v-39b6f12a><div class="test" data-v-39b6f12a><div class="selectArea" data-v-39b6f12a><span style="display:;" data-v-39b6f12a>请选择地址</span>  <img src alt class="tangleImg" data-v-39b6f12a></div> <div id="content" class="content" data-v-39b6f12a><div class="content-title" data-v-39b6f12a>
+          选择新地址
+        </div> <div class="content-tabs" data-v-39b6f12a><span class="on" data-v-39b6f12a>请选择省</span> <span style="display:none;" data-v-39b6f12a>请选择市</span> <span style="display:none;" data-v-39b6f12a>请选择区</span></div> <div class="content-detail" data-v-39b6f12a><ul class="city" style="display:;" data-v-39b6f12a><li class="cityItem" style="display:;" data-v-39b6f12a>
+              北京市
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              天津市
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              河北省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              山西省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              内蒙古
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              辽宁省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              吉林省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              黑龙江省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              上海市
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              江苏省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              浙江省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              安徽省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              福建省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              江西省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              山东省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              河南省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              湖北省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              湖南省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              广东省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              广西壮族
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              海南省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              重庆
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              四川省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              贵州省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              云南省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              西藏
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              陕西省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              甘肃省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              青海省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              宁夏
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              新疆
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              台湾省
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              香港
+            </li><li class="cityItem" style="display:;" data-v-39b6f12a>
+              澳门
+            </li><li class="cityItem" style="display:none;" data-v-39b6f12a>
+              海外
+            </li></ul> <ul class="city" style="display:none;" data-v-39b6f12a></ul> <ul class="city" style="display:none;" data-v-39b6f12a></ul></div></div></div></div> </div></div> <!----> <div class="code--button" data-v-191d366a><div class="code--show" data-v-191d366a>
+      显示代码
+    </div> <div class="code--online" data-v-191d366a>
+      在线运行
+    </div></div></div> <div class="api-wrap"><h3>Attributes</h3> <div class="el-table el-table--fit el-table--enable-row-hover el-table--enable-row-transition" style="width:100%;"><div class="hidden-columns"><div></div><div></div><div></div><div></div><div></div></div><div class="el-table__header-wrapper"><table cellspacing="0" cellpadding="0" border="0" class="el-table__header" style="width:;"><colgroup></colgroup><thead><tr></tr></thead></table></div><div class="el-table__body-wrapper is-scrolling-none"><table cellspacing="0" cellpadding="0" border="0" class="el-table__body" style="width:;"><colgroup></colgroup><tbody><tr class="el-table__row"></tr><!----></tbody></table><!----><!----></div><!----><!----><!----><!----><div class="el-table__column-resize-proxy" style="display:none;"></div></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/fecvue/components/1.0/uploadImage.html" class="prev">
+          uploadImage 上传图片
+        </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/fecvue/assets/js/app.491983d8.js" defer></script><script src="/fecvue/assets/js/3.cbe0b5a8.js" defer></script><script src="/fecvue/assets/js/14.3a8af8cc.js" defer></script><script src="/fecvue/assets/js/6.4424db27.js" defer></script><script src="/fecvue/assets/js/8.2f1fe50a.js" defer></script><script src="/fecvue/assets/js/4.05768f06.js" defer></script>
+  </body>
+</html>
